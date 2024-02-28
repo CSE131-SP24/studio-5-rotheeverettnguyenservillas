@@ -71,7 +71,15 @@ public class Methods {
 	public static String substituteAll(String source, char target, String replacement) {
 		String result = "";
 		// TODO: Finish this method
-		
+		char [] chararr = source.toCharArray();
+		for(int i=0; i< source.length(); i++) {
+			if(chararr[i] != target) {
+				result += chararr[i];
+			}
+			else {
+				result += replacement;
+			}
+		}
 		return result;
 	}
 
@@ -98,7 +106,8 @@ public class Methods {
 	public static int[] filledArray(int length, int value) {
 		int[] values = null; // FIXME: Create an array of the appropriate size
 		// TODO: Finish this method
-
+		
+		
 		
 
 		return values;
