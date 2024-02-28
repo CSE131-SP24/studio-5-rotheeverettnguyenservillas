@@ -51,6 +51,7 @@ public class Methods {
 		
 		StdDraw.setPenColor(255, 255, 109);
 		StdDraw.filledCircle(x, y, 1.0/4.0*radius);
+		//done
 
 		
 	}
